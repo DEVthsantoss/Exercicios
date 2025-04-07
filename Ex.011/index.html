@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>tente abrir esse site em varios dispositivos ou aumente e diminua o navegador</p>
+     <picture>
+        <source media="(max-width:750px )" srcset="imagem/foto-p.png" type="imagem/png">
+        <source media="(max-width: 1050px)" srcset="imagem/foto-m.png" type="imagem/png">
+        <img src="imagens/foto-g.png" alt="foto flexivel ">
+     </picture>
+     
+     <h1> Reproduzindo audio</h1>
+     <audio preload="metadata"autoplay controls>
+        <source src="midia/Cafecito por la Manana - Cumbia Deli.mp3" type="audio/mpeg">
+        <p>infelizmente seu navegador não carrega esse audio, mas fazer o dowload dele em <a href="midia/Cafecito por la Manana - Cumbia Deli.mp3">clique aqui</a></p>
+     </audio>
+    </body>
+</html>
